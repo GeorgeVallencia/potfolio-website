@@ -13,9 +13,9 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsInlineLimit: 4096,
-    rollupOptions: {
-      input: './src/main.jsx'
-    }
+    // rollupOptions: {
+    //   input: './src/main.jsx'
+    // }
   },
-  base: './'
+  base: '/'
 })
