@@ -3,7 +3,7 @@ import pic from '../media/pic.png';
 
 function Home() {
   return(
-    <div className="items-center tracking-wide mx-auto max-w-3xl my-2 py-3 px-3">
+    <div className="items-center tracking-wide mx-4 sm:mx-auto max-w-3xl my-2 py-3 px-3">
       <div className="text-5xl my-4">
         <p><span className="text-gray-400">Hi! I'm</span> George Valencia.</p>
       </div>
@@ -18,14 +18,14 @@ function Home() {
       </div>
       <div className=" text-lg tracking-wider ">
         <p>Here are a few of my best works:</p>
-        <div className="flex items-center justify-between flex-nowrap gap-x-8 mt-4">
-          <div className="ml-8 flex flex-col mt-4">
+        <div className="flex flex-col sm:flex-row items-center justify-between flex-nowrap gap-x-8 mt-4">
+          <ul className="ml-8 flex flex-col mt-4 space-y-2">
             <li><a href="https://portfolio-268d6.web.app" className="text-blue-500 underline">portfolio</a></li>
             <li><a href="https://weather-app-64cbe.firebaseapp.com" className="text-blue-500 underline">weather app</a></li>
             <li><a href="https://todon-t-app.firebaseapp.com" className="text-blue-500 underline">to don't app</a></li>
             <li><a href="https://rosa-bake.web.app" className="text-blue-500 underline">achy's pastry</a></li>
             <li><a href="https://kernverse-frontend.vercel.app" className="text-blue-500 underline">kernverse</a></li>
-          </div>
+          </ul>
         <div>
           <img src={pic} alt='pic-place'className="w-48 sm:w-64 md:w-80 max-h-40 sm:max-h-52 md:max-h-64 object-contain h-auto max-w-full rounded-lg" />
         </div>
