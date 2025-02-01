@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/styles.css" rel="stylesheet">
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- <h1 class="text-3xl font-bold underline">Hello world!</h1> -->
+    <script type="module" src="/src/main.jsx"></script>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyBK69GiYCrpvko25_ji-mjrw7IJY3u4-O0",
+    authDomain: "my-web-page-d1881.firebaseapp.com",
+    projectId: "my-web-page-d1881",
+    storageBucket: "my-web-page-d1881.firebasestorage.app",
+    messagingSenderId: "1058032126170",
+    appId: "1:1058032126170:web:c4055b74b30a97483d7de3"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+  </body>
+</html>
